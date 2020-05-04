@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html src="background.jpg" alt="background-img">
+	<head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>App</title>
+        <script  src="login.js">
+                      
+        </script>
+    <link rel="stylesheet" href="home.css">
+	</head>
+	<body> 
+        <div class="bg-image"></div>
+		<div class="home">
+			<h1>Sign up</h1>
+			<form action="signup" method="POST">
+				<input type="text" name="username" placeholder="Create Username" required>
+                <input type="password" name="password" placeholder="New Password" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="submit" value="Sign up">
+                <br>
+            </form>
+            <form action="login" method="GET">
+                <center> <label class="lbl">Already have an account? </label><button class="btn" type="submit" >Sign in</button></center>
+            </form>
+            
+		</div>
+	</body>
+</html>
