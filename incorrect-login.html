@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html src="background.jpg" alt="background-img">
+	<head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>App</title>
+        <script  src="login.js">
+                      
+        </script>
+    <link rel="stylesheet" href="incorrect-login.css">
+	</head>
+	<body> 
+        <div class="bg-image"></div>
+		<div class="home">
+			<h1>Log in</h1>
+			<form action="auth" method="POST"><center>
+                <label type="text" name="response" class="response">Incorrect username/password</label></center><br><br>
+				<input type="text" name="username" placeholder="Enter Username" required>
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <input type="submit" value="Log in">
+                <br>
+            </form>
+		</div>
+	</body>
+</html>
